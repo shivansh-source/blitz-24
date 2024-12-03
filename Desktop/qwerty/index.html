@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/index.css">
     <title>eDoc</title>
     <style>
-        table{
-            animation: transitionIn-Y-bottom 0.5s;
+        .full-height{
+            animation: transitionIn-Y-bottom 0.7s;
         }
     </style>
         
@@ -18,53 +18,45 @@
 <body>
     
     <div class="full-height">
-        <center>
-        <table border="0">
-            <tr>
-                <td width="80%">
-                    <font class="edoc-logo">eDoc. </font>
-                    <font class="edoc-logo-sub">| THE ECHANNELING PROJECT</font>
-                </td>
-                <td width="10%">
-                   <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
-                </td>
-                <td  width="10%">
-                    <a href="signup.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">REGISTER</p></a>
-                </td>
-            </tr>
-            
-            <tr>
-                <td  colspan="3">
-                    <p class="heading-text">Avoid Hassles & Delays.</p>
-
-                </td>
-            </tr>
-            <tr>
-                <td  colspan="3">
-                    <p class="sub-text2">How is health today, Sounds like not good!<br>Don't worry. Find your doctor online Book as you wish with eDoc. <br>
-                    We offer you a free doctor channeling service, Make your appointment now.</p>
-                </td>
-            </tr>
-            <tr>
-                
-                <td colspan="3">
-                    <center>
-                    <a href="login.php" >
-                        <input type="button" value="Make Appointment" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+        <div style="text-align: center;">
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 20px;">
+                <div style="flex: 8; text-align: left;">
+                    <span class="edoc-logo">eDoc. </span>
+                    <span class="edoc-logo-sub">| THE ECHANNELING PROJECT</span>
+                </div>
+                <div style="flex: 1; text-align: center;">
+                    <a href="login.php" class="non-style-link">
+                        <p class="nav-item">LOGIN</p>
                     </a>
-                </center>
-                </td>
-                
-            </tr>
-            <tr>
-                <td colspan="3">
-                   
-                </td>
-            </tr>
-        </table>
-        <p class="sub-text2 footer-hashen">A Web Solution by Hashen.</p>
-    </center>
+                </div>
+                <div style="flex: 1; text-align: center;">
+                    <a href="signup.php" class="non-style-link">
+                        <p class="nav-item" style="padding-right: 10px;">REGISTER</p>
+                    </a>
+                </div>
+            </div>
     
+            <div style="margin-bottom: 20px;">
+                <p class="heading-text">Avoid Hassles & Delays.</p>
+            </div>
+    
+            <div style="margin-bottom: 20px;">
+                <p class="sub-text2">
+                    How is health today? Sounds like not good!<br>
+                    Don't worry. Find your doctor online. Book as you wish with eDoc.<br>
+                    We offer you a free doctor channeling service. Make your appointment now.
+                </p>
+            </div>
+    
+            <div style="margin-bottom: 20px;">
+                <a href="login.php">
+                    <input type="button" value="Make Appointment" class="login-btn btn-primary btn" style="padding: 10px 25px;">
+                </a>
+            </div>
+    
+            <p class="sub-text2 footer-hashen">A Web Solution by Hashen.</p>
+        </div>
     </div>
+    
 </body>
 </html>
